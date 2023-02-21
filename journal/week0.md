@@ -29,6 +29,7 @@ Momento installed
 
 
 Other required tasks were:
+- I also used MFA to secure all accounts.
 - I also created admin user and generated AWS access keys and Secret access keys for use on the CLI. 
 - I created cloud billing alarms and set up a $5 budget with alarm at 80% expenditure on root at first then on admin account thereafter.
 - I added tags to be able to associate which processes with which processes. This [link](https://cloudacademy.com/blog/aws-tags-important/) gives better explanation. 
