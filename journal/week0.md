@@ -1,8 +1,9 @@
 # Week 0 — Billing and Architecture
 
-# Required Homework/Tasks
+So, the journey begins...
 
-I created all the required accounts 
+First off, I created all the required accounts
+
 - New AWS account, 
 - Gitpod and integrated it with github using a browser extension, 
 - Lucid, 
