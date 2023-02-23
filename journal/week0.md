@@ -20,6 +20,8 @@ I already had Cantrill course which guided me to install the AWS CLI v2 early th
 ![AWS CLI](https://user-images.githubusercontent.com/109069039/220363490-a3041b52-2cd3-4d29-a6a5-bde2beeb4a9a.png)
 AWS CLI
 
+I retraced my steps and reinstalled AWS CLIv2 on Gitpod environment using 
+** pip install awscliv2
 
 I read further on how to set up Momento since this was the only requirement that was a bit edgy for me at first. I downloaded a MSI package and had it installed
 Here is a screenshot of how it looks like on my PC.
