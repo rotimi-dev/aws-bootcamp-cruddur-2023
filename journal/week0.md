@@ -34,6 +34,12 @@ Other required tasks were:
 - I also used MFA to secure all accounts.
 - I also created admin user and generated AWS access keys and Secret access keys for use on the CLI. 
 - I created cloud billing alarms and set up a $5 budget with alarm at 80% expenditure on root at first then on admin account thereafter.
+- On the terminal, I created budgets aalarm. But first, I had to create budgets and budget-notifications-with-subscribers json files in Gitpod. Then I used this code snippet to create the budgets on the terminal
+
+aws budgets create-budget \
+    --account-id YOUR_ID \
+    --budget file://aws/json/budgets.json \
+    --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
 - I added tags to be able to associate which processes with which processes. This [link](https://cloudacademy.com/blog/aws-tags-important/) gives better explanation. 
 - I tested out event setting on Amazon EventBridge and set up parameters on health issues
 
