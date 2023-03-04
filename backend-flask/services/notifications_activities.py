@@ -1,11 +1,11 @@
 from datetime import datetime, timedelta, timezone
-class NotificationsActivities:
+class HomeActivities:
   def run():
     now = datetime.now(timezone.utc).astimezone()
     results = [{
       'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
-      'handle':  'spamdam',
-      'message': 'This is in respect of Cipher Pol Aegis 0!',
+      'handle':  'Spandam',
+      'message': 'Cloud is so much fun, Aegis 0 always!',
       'created_at': (now - timedelta(days=2)).isoformat(),
       'expires_at': (now + timedelta(days=5)).isoformat(),
       'likes_count': 5,
