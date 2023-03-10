@@ -4,8 +4,8 @@ class HomeActivities:
     now = datetime.now(timezone.utc).astimezone()
     results = [{
       'uuid': '68f126b0-1ceb-4a33-88be-d90fa7109eee',
-      'handle':  'Kolo Toure',
-      'message': 'I sued to be a baller once, but now, I ball the cloud!',
+      'handle':  'Gram Slider',
+      'message': 'Cloud is too damn fun!',
       'created_at': (now - timedelta(days=2)).isoformat(),
       'expires_at': (now + timedelta(days=5)).isoformat(),
       'likes_count': 5,
